@@ -1,0 +1,26 @@
+{
+  "name": "simp-boot",
+  "version": "1.0.0",
+  "description": "First Assigment of module 1",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Alex4191-usac@bitbucket.org/Alex4191-usac/simp-boot.git"
+  },
+  "author": "Alex4191",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Alex4191-usac/simp-boot#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
