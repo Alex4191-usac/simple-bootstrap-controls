@@ -229,6 +229,19 @@
 		$(function(){
 			$("[data-toggle='tooltip']").tooltip()
 		});
+		
+		$('#exampleModal').on('show.bs.modal', function (e) {
+			console.log('SE HA MOSTRO');
+		});
+		$('#exampleModal').on('shown.bs.modal', function (e) {
+			console.log('SE HA MOSTRADO');
+		});
+		$('#exampleModal').on('hide.bs.modal', function (e) {
+			console.log('SE OCULTO');
+		});
+		$('#exampleModal').on('hidden.bs.modal', function (e) {
+			console.log('SE HA OCULTADO');
+		});
 	</script>
 </body>
 </html>
