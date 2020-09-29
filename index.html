@@ -173,7 +173,7 @@
 				
 				<div class="col">
 					<h5>Quieres estar mas notificado con nuestras ofertas? Da click en el boton</h5>
-					<button type="button" class="btn btn-danger btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
+					<button type="button" id="btn_sus" class="btn btn-danger btn-lg btn-block" data-toggle="modal" data-target="#exampleModal">
 						<i class="fas fa-bell"></i> Suscribirse</button>
 				</div>
 			</div>
@@ -231,7 +231,11 @@
 		});
 		
 		$('#exampleModal').on('show.bs.modal', function (e) {
+			$("#btn_sus").removeClass("btn-danger").addClass("btn-primary")
+			$("#btn_sus").prop('disabled', true);
+			
 			console.log('SE HA MOSTRO');
+
 		});
 		$('#exampleModal').on('shown.bs.modal', function (e) {
 			console.log('SE HA MOSTRADO');
@@ -241,7 +245,11 @@
 		});
 		$('#exampleModal').on('hidden.bs.modal', function (e) {
 			console.log('SE HA OCULTADO');
+			$("#btn_sus").removeClass("btn-primary").addClass("btn-danger");
+			$("#btn_sus").prop('disabled', false);
 		});
+
+		
 	</script>
 </body>
 </html>
