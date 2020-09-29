@@ -4,12 +4,15 @@ $Green:1b4332;
 $White_Background:White;
 $Red:#d00000;
 
-@mixin Margin_card {
+@mixin Margin_card ($right,$bottom,$left,$top) {
     background-color: #cad2c5;
-	margin-right: 2px;
-	margin-bottom: 5px;
-	margin-left: 2px;
-	margin-top: 5px; 
+    margin: {
+        right: $right;
+        bottom: $bottom;
+        left: $left;
+        top:$top;
+    }
+	
 }
 
 @mixin image_carrousel($image){
@@ -54,7 +57,7 @@ $Red:#d00000;
   }
 
 .card{
-	@include Margin_card;
+	@include Margin_card(2px,5px,2px,5px);
 }
 
 

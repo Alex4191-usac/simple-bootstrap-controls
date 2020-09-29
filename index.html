@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--Required meta tags-->
 	<meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--STYLES -->
+    <!--build:css css/index.css -->
     <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
-  	<link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
-  	<link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!--endbuild-->
 
-
-	<title>First Assigment</title>
+	<title>Keep Health, Keep Drinking</title>
 </head>	
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
@@ -97,7 +96,7 @@
 		<div class="d-flex flex-wrap">
 			<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
 				<div class="card">
-					<img class="card-img-top" src="energy.png" alt="Card image cap">
+					<img class="card-img-top" src="src/energy.png" alt="Card image cap">
      				 <div class="card-body">
         				<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Keep Moving">Pandy Drink</h5>
         				<p class="card-text">Dedicada especialmente para aquellos que buscan una reaccion animadora y que proporcione
@@ -108,7 +107,7 @@
 			</div>
     		<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
     			<div class="card">
-    				<img class="card-img-top" src="water.png" alt="Card image cap">
+    				<img class="card-img-top" src="src/water.png" alt="Card image cap">
      				 <div class="card-body">
         				<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Feels Nature">Ocean Water</h5>
         				<p class="card-text">Delicioza y refrescante bebida natural, proveniente de los mas exclusivos manantiales, que crean un balance entre salud y frescura</p>
@@ -118,7 +117,7 @@
     		</div>
     		<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
     			<div class="card">
-    				<img class="card-img-top" src="tea.jpg" alt="Card image cap">
+    				<img class="card-img-top" src="src/tea.jpg" alt="Card image cap">
      				 <div class="card-body">
         				<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Relaxing flavor">Tea Special</h5>
         				<p class="card-text">refrescante bebida de tea frio el cual posee los balances entre saludable y sabroso, perfecta para
@@ -130,7 +129,7 @@
     		</div>
     		<div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
     			<div class="card">
-    				<img class="card-img-top" src="blue.jpg" alt="Card image cap">
+    				<img class="card-img-top" src="src/blue.jpg" alt="Card image cap">
      				 <div class="card-body">
         				<h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Blue flavor">Blue position</h5>
         				<p class="card-text">Bebida excluisiva para deportistas y atletas, perfecta para la una re-hidratacion completa y segura positivo al 100 ademas..,</p>
@@ -217,39 +216,13 @@
 
 		</div>
 	</footer>
-	<!--SCRIPTS-->
 	
+	<!--build:js js/index.js -->
 	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" ></script>
 	<script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.min.js" ></script>
 	<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js" ></script>
-	<script>
-		$('.carousel').carousel({
-			interval: 1000
-		});
-		$(function(){
-			$("[data-toggle='tooltip']").tooltip()
-		});
-		
-		$('#exampleModal').on('show.bs.modal', function (e) {
-			$("#btn_sus").removeClass("btn-danger").addClass("btn-primary")
-			$("#btn_sus").prop('disabled', true);
-			
-			console.log('SE HA MOSTRO');
-
-		});
-		$('#exampleModal').on('shown.bs.modal', function (e) {
-			console.log('SE HA MOSTRADO');
-		});
-		$('#exampleModal').on('hide.bs.modal', function (e) {
-			console.log('SE OCULTO');
-		});
-		$('#exampleModal').on('hidden.bs.modal', function (e) {
-			console.log('SE HA OCULTADO');
-			$("#btn_sus").removeClass("btn-primary").addClass("btn-danger");
-			$("#btn_sus").prop('disabled', false);
-		});
-
-		
-	</script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<!--endbuild-->
+	
 </body>
 </html>
