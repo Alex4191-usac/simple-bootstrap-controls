@@ -1,188 +1,125 @@
-.jumbotron{
-	background-color: #16697a;
-	color: white;
-	font-family: Arial;
-	text-align: center;
-	border: none;
-	margin-top:50px;
-	margin-bottom: 0px;
-}
+.jumbotron {
+  background-color: #f48c06;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+  border: none;
+  margin-top: 50px;
+  margin-bottom: 0px; }
 
-.d-flex{
-	margin-top: 70px;
-}
+.d-flex {
+  margin-top: 70px; }
 
 .card-body > h5 {
-	font-family: Arial;
-	text-align: center;
-	font-size: 30px;
-}
+  font-family: Arial;
+  text-align: center;
+  font-size: 30px; }
 
-.d-flex  div{
-	
-	margin-bottom: 10px;
-	margin-top: 10px;
-	
-}
+.d-flex div {
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
-.carousel-inner > .carousel-item  img {
-	width:100%;
-	height:560px;
-  }
+.carousel-inner > .carousel-item img {
+  width: 100%;
+  height: 560px; }
 
-.card{
-	background-color: #cad2c5;
-	margin-right: 2px;
-	margin-bottom: 5px;
-	margin-left: 2px;
-	margin-top: 5px; 
-}
+.card {
+  background-color: #cad2c5;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  margin-top: 5px; }
 
+.foo {
+  color: white;
+  margin-top: 25px;
+  background-color: #2f3e46; }
 
-.foo{
-	color:white;
-	margin-top: 25px;
-	background-color: #2f3e46;
-}
+.foo h1 {
+  font-family: Arial;
+  font-size: 20px; }
 
-.foo h1{
-	font-family: Arial;
-	font-size: 20px;
-}
-
-
-footer  div  {
-	margin-top: 10px;
-	margin-right: 5px;
-	
-
-}
+footer div {
+  margin-top: 10px;
+  margin-right: 5px; }
 
 .nav-item > a:hover {
-  border-bottom: 3px solid #16697a;
-}
+  border-bottom: 3px solid #16697a; }
 
+.container > h1 {
+  margin-top: 10px; }
 
-.container > h1{
-	margin-top: 10px;
+thead {
+  width: 100%; }
 
-}
+.table-data {
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
+.text-center {
+  margin-bottom: 50px; }
 
-thead{
-	width: 100%;
-}
-.table-data{
-	background-color: white;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
+form .form-row, .form-group {
+  margin-bottom: 15px; }
 
-.text-center{
-	margin-bottom: 50px;
-}
+.pills {
+  margin-top: 25px; }
 
-form .form-row ,.form-group{
-	margin-bottom: 15px;
-}
+.sub_container {
+  margin-top: 25px; }
 
-.pills{
-	margin-top: 25px;
-}
-.sub_container{
-	margin-top: 25px;
-}
 /*.card-img-top{
 	height:200px;
 }*/
-
 /*class table.html*/
-.accordion .btn-link{	
-	text-decoration:none;
-	font-family: Arial;
-	font-size: 20px;
-	color:beige;
-}
+.accordion .btn-link {
+  text-decoration: none;
+  font-family: Arial;
+  font-size: 20px;
+  color: beige; }
 
-.accordion .card{
-	background-color: #2f3e46;
-	color:white
-}
+.accordion .card {
+  background-color: #2f3e46;
+  color: white; }
 
 /*EXTRA SMALL DEVICES*/
-@media (max-width: 575px) { 
-	.box{
-	
-		font-size: 2.5vw;
-	}
-
-}
-
-
-
+@media (max-width: 575px) {
+  .box {
+    font-size: 2.5vw; } }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-	.picture-cover{
-		height: 300px;
-		width: 100%;
-		background-image: url("../drinks.jpg");
-		background-size: contain;
-		background-repeat: no-repeat;
-
-	}
-	
-
-}
+@media (min-width: 576px) {
+  .picture-cover {
+    height: 300px;
+    width: 100%;
+    background-image: url("../drinks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; } }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
-
-	.card-img-top{
-		height:290px;
-	}
-		
-	.picture-cover{
-		height: 400px;
-		width: 100%;
-		background-image: url("../drinks.jpg");
-		background-size: contain;
-		background-repeat: no-repeat;
-
-	}
-
-
-
- }
+@media (min-width: 768px) {
+  .card-img-top {
+    height: 290px; }
+  .picture-cover {
+    height: 400px;
+    width: 100%;
+    background-image: url("../drinks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; } }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {  
-	
-	.picture-cover{
-		height: 600px;
-		width: 100%;
-		background-image: url("../drinks.jpg");
-		background-size: contain;
-		background-repeat: no-repeat;
-
-	}
-
-	.card-img-top{
-		height:250px;
-	}
-	
-	
-}
+@media (min-width: 992px) {
+  .picture-cover {
+    height: 600px;
+    width: 100%;
+    background-image: url("../drinks.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .card-img-top {
+    height: 250px; } }
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
-	.card-img-top{
-		height:250px;
-	}
-
-	
-	
-
-	
-
-}
+@media (min-width: 1200px) {
+  .card-img-top {
+    height: 250px; } }
